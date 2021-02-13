@@ -1,0 +1,28 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true
+    }
+  },
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "plugins": ["myfp"],
+  "rules": {
+    "myfp/ta-equality-operator": 2,
+    "myfp/ta-no-var": 2,
+    "myfp/ta-no-new-object": 2,
+    "myfp/ta-no-assign": 2,
+    "myfp/ta-no-chained-var": 2,
+    "myfp/ta-no-dup-class-prop": 2,
+    "myfp/ta-no-dup-import": 2,
+    "myfp/ta-no-unnecessary-constructor": 2,
+    "myfp/ta-undeclared-var": 2,
+    "myfp/ta-use-arrow-spacing": 2,
+    "myfp/ta-use-brace-style": 2,
+    "myfp/ta-use-rest-paremeter": 2
+  }
+}
